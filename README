@@ -1,0 +1,4 @@
+RECIPES
+["gems", "setup", "testing"]
+PREFERENCES
+{:dev_webserver=>"webrick", :prod_webserver=>"thin", :database=>"mongodb", :orm=>"mongoid", :templates=>"haml", :unit_test=>"rspec", :integration=>"rspec-capybara", :continuous_testing=>"none", :fixtures=>"factory_girl", :email=>"none", :form_builder=>"simple_form"}
